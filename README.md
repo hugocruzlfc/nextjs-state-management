@@ -1,4 +1,8 @@
-## Quickstart
+## Quick Start
+
+### Initialize the project
+
+Clone the project and install the dependencies for each example.
 
 ### Summarizing State Management Options in Next.js App Router
 
@@ -14,16 +18,11 @@ You can handle state with useState, useReducer, and useRef, and watch for change
 
 If you need more than what React Hooks offer, there are four categories of state managers to consider:
 
-- Unidirectional State Managers, such as [Redux](https://github.com/reduxjs/redux) and Zustand that we worked with in this tutorial.
-- Bidirectional State Managers, like MobX.
-- Event-based State Managers like Effector, often used with RxJS.
-- Atomic State Managers: Like Recoil and Jotai, which was covered in a previous lesson.
+- Unidirectional State Managers, such as [Redux](https://github.com/reduxjs/redux) and [Zustand](https://github.com/pmndrs/zustand) that we worked with in this tutorial.
+- Bidirectional State Managers, like [MobX](https://github.com/mobxjs/mobx).
+- Event-based State Managers like [Effector](https://github.com/effector/effector), often used with RxJS.
+- Atomic State Managers: Like [Recoil](https://github.com/facebookexperimental/Recoil) and [Jotai](https://github.com/pmndrs/jotai), which was covered in a previous lesson.
 
-### Installation
+### Conclusion
 
-```bash
-pnpm add redux react-redux @reduxjs/toolkit
-pnpm add zustand
-pnpm add jotai
-
-```
+State management has evolved. There are a lot of different options out there, so it's important to evaluate them before you pick one for your application. Choose wisely to ensure that you're using the most appropriate model for your specific use case.
